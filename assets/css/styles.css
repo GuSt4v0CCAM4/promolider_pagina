@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background:
+            linear-gradient(180deg, rgba(31, 31, 31, 0.7) 53%, rgba(31, 31, 31, 0.7) 50%),
+            url('../img/equipo-negocios-lleno-alegria-feliz-celebrar-victoria-corporativa_93675-126169.jpg') center/cover no-repeat;
+    background-blend-mode: darken;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero h1 {
+    font-weight: bold;
+}
+
+.hero .line-1 {
+    display: block;
+}
+
+.hero .line-2 {
+    display: block;
+}
+
+.hero .highlight {
+    color: #1BE700;
+}
+
+.btn-reserva {
+    background-color: #1BE700;
+    color: #1F2937;
+    font-size: 12px;
+    border-radius: 50px;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-reserva:hover {
+    background-color: #14A600;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+}
+
+/* Estilos para el video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.video-container video {
+    width: 640px;
+    max-width: 100%;
+    height: 360px;
+}
+
+/* Estilos para la sección de beneficios */
+.benefits {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+    color: black;
+}
+
+.benefits h2 {
+    color: black;
+}
+
+.benefits h2 .highlight {
+    background-color: #111827;
+    color: #1BE700;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.benefit-item {
+    background: #111827;
+    color: white;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.benefit-item i {
+    font-size: 24px;
+    color: #1BE700;
+}
+
+.benefit-title {
+    font-weight: bold;
+    color: white;
+}
+
+.benefit-text {
+    color: #D1D5DB;
+}
+/*Estilos para el contenedo de razones (?)*/
+.container-1 {
+    background-color: #2B3749;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.container-1 h2 {
+    font-weight: bold;
+}
+
+.container-1 .line-1 {
+    display: block;
+}
+
+.container-1 .highlight {
+    color: #1BE700;
+}
+.container-1 img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 50%;
+}
+.lista-razones {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.icon-light {
+    color: #1BE700;
+}
+.card-config {
+    background-color: #1F2937;
+    border-radius: 20px;
+    height: 150px;
+}
+.card h5{
+    color: white;
+    font-weight: bold;
+}
+.card p{
+    color: white;
+}
+
+/*Seccion 2*/
+.container-2 {
+    background-color: #1F2937;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.container-2 h2 {
+    font-weight: bold;
+}
+
+.container-2 .line-1 {
+    display: block;
+}
+
+.container-2 .highlight {
+    color: #1BE700;
+}
+.container-2 img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 50%;
+}
+/*card-2*/
+.card-config-2 {
+    background-color: #111827;
+    border-radius: 20px;
+}
+.card h5{
+    color: white;
+    font-weight: bold;
+}
+.card p{
+    color: white;
+}
