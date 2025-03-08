@@ -183,7 +183,7 @@ body {
 .container-2 img {
     width: 100%;
     max-width: 800px;
-    border-radius: 50%;
+
 }
 /*card-2*/
 .card-config-2 {
@@ -196,4 +196,34 @@ body {
 }
 .card p{
     color: white;
+}
+/*Seccion 3*/
+.container-3 {
+    background: linear-gradient(to bottom, #2B3749 0%, #2B3749 50%, #1F2937 100%);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.container-3 h2 {
+    font-weight: bold;
+}
+
+.container-3 .line-1 {
+    display: block;
+}
+
+.container-3 .highlight {
+    color: #1BE700;
+}
+.container-3 img {
+    width: 100%;
+    max-width: 350px;
+}
+
+.card-config-3 {
+    background-color: #1F2937;
+    border-radius: 20px;
+    height: 350px;
 }
