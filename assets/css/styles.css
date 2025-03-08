@@ -3,11 +3,18 @@
 body {
     font-family: 'Inter', sans-serif;
     color: white;
-    background:
-            linear-gradient(180deg, rgba(31, 31, 31, 0.7) 53%, rgba(31, 31, 31, 0.7) 50%),
-            url('../img/equipo-negocios-lleno-alegria-feliz-celebrar-victoria-corporativa_93675-126169.jpg') center/cover no-repeat;
+    background: 
+        linear-gradient(180deg, rgba(31, 31, 31, 0.7) 0%, rgba(31, 31, 31, 0.7) 100%),
+        url('../img/equipo-negocios-lleno-alegria-feliz-celebrar-victoria-corporativa_93675-126169.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija la imagen para que se mantenga al hacer scroll */
     background-blend-mode: darken;
+    min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+    margin: 0; /* Evita márgenes indeseados */
 }
+
 
 .hero {
     text-align: center;
