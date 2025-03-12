@@ -56,6 +56,7 @@ body {
     background-color: #14A600;
 }
 
+
 .logo {
     position: absolute;
     top: 20px;
@@ -232,5 +233,73 @@ body {
 .card-config-3 {
     background-color: #1F2937;
     border-radius: 20px;
-    height: 350px;
+    display: inline-block;
+}
+.card-t h5{
+    color: black;
+    font-weight: bold;
+}
+.card-t p{
+    color: black;
+}
+.timer-box {
+    background: #374151;
+    color: #1BE700;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 20px;
+    min-width: 100px;
+    line-height: 1.38;
+}
+.timer-box span {
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+    display: block;
+}
+.footer-config {
+    background-color: #111827;
+}
+.footer-config-2 {
+    background-color: #111827;
+    border-top-color: #9CA3AF;
+}
+
+.container-4 {
+    background: linear-gradient(to bottom, #2B3749 0%, #1C2534 50%, #111827 100%);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.container-4 h2 {
+    font-weight: bold;
+}
+
+.container-4 .line-1 {
+    display: block;
+}
+
+.container-4 .highlight {
+    color: #1BE700;
+}
+.container-4 img {
+    width: 100%;
+    max-width: 350px;
+}
+.logo-footer {
+
+    top: 20px;
+    left: 20px;
+    width: 150px;
+}
+.lista-enlaces{
+    color:#9CA3AF;
+    display: block;
+    line-height: 1.8;
+}
+.btn-enlaces{
+    color: #9CA3AF;
 }
