@@ -67,13 +67,18 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    max-width: 800px;
+    width: 100%;
 }
 
-.video-wrapper video {
-    width: 640px;
-    max-width: 100%;
-    height: 360px;
+.video-responsive {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Sección Beneficios */
 .benefits-section {
@@ -143,7 +148,7 @@ body {
 }
 
 .features-list {
-    padding: 0 100px;
+    padding: 0 20px;
 }
 
 .feature-icon {
@@ -154,6 +159,21 @@ body {
     background-color: #1F2937;
     border-radius: 20px;
     height: 150px;
+}
+@media (max-width: 768px) {
+    .feature-card {
+        background-color: #1F2937;
+        border-radius: 20px;
+        height: auto; /* Permite que la altura se ajuste */
+        text-align: center; /* Centra el contenido */
+    }
+    .feature-card .row {
+        flex-direction: column; /* Acomoda icono y texto en vertical */
+        align-items: center;
+    }
+    .feature-card .col-1 {
+        margin-bottom: 10px;
+    }
 }
 
 .card h5 {
@@ -289,6 +309,10 @@ body {
     text-align: center;
 }
 
+.countdown-section h2 {
+    font-weight: bold;
+}
+
 .countdown-card {
     background-color: #1F2937;
     border-radius: 20px;
@@ -340,3 +364,38 @@ body {
 .footer-copyright a:hover {
     color: #14A600;
 }
+
+/* Sección Testimonios */
+.testimonial-section {
+    background-color: #F8F9FA; /* Fondo claro para la sección */
+    color: black;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-card h5 {
+    color: black;
+    font-weight: bold;
+}
+
+.testimonial-card p {
+    color: #333;
+}
+
+.testimonial-icon {
+    color: #1BE700; /* Color verde para los íconos */
+}
+
