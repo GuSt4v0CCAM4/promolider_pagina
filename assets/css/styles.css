@@ -398,4 +398,33 @@ body {
 .testimonial-icon {
     color: #1BE700; /* Color verde para los íconos */
 }
+.subtitle {
+    display: block;
+    font-weight: bold;
+}
+.text-content {
+    display: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
 
+.feature-icon-2 {
+    color: #1BE700;
+    animation: blink 1s infinite;
+}
+.img-c {
+    width: 100%;
+    max-width: 400px; /* Ajusta el ancho */
+    height: 595px; /* Ajusta la altura para hacerla rectangular */
+    object-fit: cover; /* Evita deformaciones recortando la imagen */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+}
+.img-logo {
+    height:  60px;
+}
